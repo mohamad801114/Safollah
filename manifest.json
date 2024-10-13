@@ -1,0 +1,24 @@
+{
+  "name": "Safolla",
+  "description": "Exprince Safe Profit With Us",
+  "version": "1.0.0",
+  "permissions": [
+    "storage"
+  ],
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.firouzehasia.ir/*"
+      ],
+      "js": [
+        "main.js"
+      ],
+      "css": [
+        "styles.css"
+      ]
+    }
+  ]
+}
+
+
